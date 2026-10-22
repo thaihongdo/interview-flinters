@@ -61,11 +61,13 @@ malformed row handling, empty/header-only files, missing input file.
 
 ## Performance
 
-_(Fill in after running on the 1 GB file.)_
+Tested on the 1 GB input file:
 
-- Wall-clock time: 13.664737267s
-- Heap alloc: 2.9 MB, Total alloc: 3578.3 MB
 ```
- ./aggregator --input ad_data.csv --output results/
+$ ./aggregator --input ad_data.csv --output results/
 completed in 13.664737267s, heap alloc: 2.9 MB, total alloc: 3578.3 MB
 ```
+
+- **Wall-clock time:** ~14s
+- **Heap alloc:** 2.9 MB
+- **Total alloc:** 3578.3 MB
