@@ -1,0 +1,6 @@
+campaign_id,date,impressions,clicks,spend,conversions
+camp_a,2024-01-01,1000,100,50.00,10
+camp_a,2024-01-02,2000,200,100.00,20
+camp_b,2024-01-01,500,50,25.00,5
+camp_c,2024-01-01,0,0,10.00,0
+camp_d,2024-01-01,100,10,5.00,0
